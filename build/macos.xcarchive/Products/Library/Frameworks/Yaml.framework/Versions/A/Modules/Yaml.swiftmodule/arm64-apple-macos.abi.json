@@ -1,0 +1,2949 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Yaml",
+    "printedName": "Yaml",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Yaml"
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "<*>",
+        "printedName": "<*>",
+        "declKind": "InfixOperator",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "<^>",
+        "printedName": "<^>",
+        "declKind": "InfixOperator",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": ">>-",
+        "printedName": ">>-",
+        "declKind": "InfixOperator",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": ">>=-",
+        "printedName": ">>=-",
+        "declKind": "InfixOperator",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": ">>|",
+        "printedName": ">>|",
+        "declKind": "InfixOperator",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Yaml"
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "|>",
+        "printedName": "|>",
+        "declKind": "InfixOperator",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Yaml"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Yaml",
+        "printedName": "Yaml",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "null",
+            "printedName": "null",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO4nullyA2BmF",
+            "mangledName": "$s4YamlAAO4nullyA2BmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> (Swift.Bool) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> Yaml.Yaml",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO4boolyABSbcABmF",
+            "mangledName": "$s4YamlAAO4boolyABSbcABmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> (Swift.Int) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> Yaml.Yaml",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO3intyABSicABmF",
+            "mangledName": "$s4YamlAAO3intyABSicABmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> (Swift.Double) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> Yaml.Yaml",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO6doubleyABSdcABmF",
+            "mangledName": "$s4YamlAAO6doubleyABSdcABmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> (Swift.String) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> Yaml.Yaml",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO6stringyABSScABmF",
+            "mangledName": "$s4YamlAAO6stringyABSScABmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> ([Yaml.Yaml]) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Yaml.Yaml]) -> Yaml.Yaml",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Yaml.Yaml]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Yaml",
+                            "printedName": "Yaml.Yaml",
+                            "usr": "s:4YamlAAO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO5arrayyABSayABGcABmF",
+            "mangledName": "$s4YamlAAO5arrayyABSayABGcABmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Var",
+            "name": "dictionary",
+            "printedName": "dictionary",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Yaml.Yaml.Type) -> ([Yaml.Yaml : Yaml.Yaml]) -> Yaml.Yaml",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Yaml.Yaml : Yaml.Yaml]) -> Yaml.Yaml",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Yaml.Yaml : Yaml.Yaml]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Yaml",
+                            "printedName": "Yaml.Yaml",
+                            "usr": "s:4YamlAAO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Yaml",
+                            "printedName": "Yaml.Yaml",
+                            "usr": "s:4YamlAAO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Yaml.Yaml.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4YamlAAO10dictionaryyABSDyA2BGcABmF",
+            "mangledName": "$s4YamlAAO10dictionaryyABSDyA2BGcABmF",
+            "moduleName": "Yaml"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO2eeoiySbAB_ABtFZ",
+            "mangledName": "$s4YamlAAO2eeoiySbAB_ABtFZ",
+            "moduleName": "Yaml",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "-",
+            "printedName": "-(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO1sopyA2BFZ",
+            "mangledName": "$s4YamlAAO1sopyA2BFZ",
+            "moduleName": "Yaml",
+            "static": true,
+            "declAttributes": [
+              "Prefix",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ResultError",
+            "printedName": "ResultError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "message",
+                "printedName": "message",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Yaml.Yaml.ResultError.Type) -> (Swift.String?) -> Yaml.Yaml.ResultError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> Yaml.Yaml.ResultError",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ResultError",
+                            "printedName": "Yaml.Yaml.ResultError",
+                            "usr": "s:4YamlAAO11ResultErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Yaml.Yaml.ResultError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ResultError",
+                            "printedName": "Yaml.Yaml.ResultError",
+                            "usr": "s:4YamlAAO11ResultErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4YamlAAO11ResultErrorO7messageyADSSSgcADmF",
+                "mangledName": "$s4YamlAAO11ResultErrorO7messageyADSSSgcADmF",
+                "moduleName": "Yaml"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:4YamlAAO11ResultErrorO",
+            "mangledName": "$s4YamlAAO11ResultErrorO",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nilLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO10nilLiteralAByt_tcfc",
+            "mangledName": "$s4YamlAAO10nilLiteralAByt_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(booleanLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO14booleanLiteralABSb_tcfc",
+            "mangledName": "$s4YamlAAO14booleanLiteralABSb_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(integerLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO14integerLiteralABSi_tcfc",
+            "mangledName": "$s4YamlAAO14integerLiteralABSi_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(floatLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO12floatLiteralABSd_tcfc",
+            "mangledName": "$s4YamlAAO12floatLiteralABSd_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(stringLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO13stringLiteralABSS_tcfc",
+            "mangledName": "$s4YamlAAO13stringLiteralABSS_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(extendedGraphemeClusterLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO30extendedGraphemeClusterLiteralABSS_tcfc",
+            "mangledName": "$s4YamlAAO30extendedGraphemeClusterLiteralABSS_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(unicodeScalarLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO20unicodeScalarLiteralABSS_tcfc",
+            "mangledName": "$s4YamlAAO20unicodeScalarLiteralABSS_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(arrayLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Yaml.Yaml]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO12arrayLiteralA2Bd_tcfc",
+            "mangledName": "$s4YamlAAO12arrayLiteralA2Bd_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dictionaryLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(Yaml.Yaml, Yaml.Yaml)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Yaml.Yaml, Yaml.Yaml)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4YamlAAO17dictionaryLiteralA2B_ABtd_tcfc",
+            "mangledName": "$s4YamlAAO17dictionaryLiteralA2B_ABtd_tcfc",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO11descriptionSSvp",
+            "mangledName": "$s4YamlAAO11descriptionSSvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO11descriptionSSvg",
+                "mangledName": "$s4YamlAAO11descriptionSSvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO9hashValueSivp",
+            "mangledName": "$s4YamlAAO9hashValueSivp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO9hashValueSivg",
+                "mangledName": "$s4YamlAAO9hashValueSivg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s4YamlAAO4hash4intoys6HasherVz_tF",
+            "moduleName": "Yaml",
+            "implicit": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO4loadyABSSKFZ",
+            "mangledName": "$s4YamlAAO4loadyABSSKFZ",
+            "moduleName": "Yaml",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadMultiple",
+            "printedName": "loadMultiple(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Yaml.Yaml]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO12loadMultipleySayABGSSKFZ",
+            "mangledName": "$s4YamlAAO12loadMultipleySayABGSSKFZ",
+            "moduleName": "Yaml",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Yaml.Yaml?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO5debugyABSgSSFZ",
+            "mangledName": "$s4YamlAAO5debugyABSgSSFZ",
+            "moduleName": "Yaml",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debugMultiple",
+            "printedName": "debugMultiple(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Yaml.Yaml]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Yaml.Yaml]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4YamlAAO13debugMultipleySayABGSgSSFZ",
+            "mangledName": "$s4YamlAAO13debugMultipleySayABGSgSSFZ",
+            "moduleName": "Yaml",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:4YamlAAOyABSicip",
+            "mangledName": "$s4YamlAAOyABSicip",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAOyABSicig",
+                "mangledName": "$s4YamlAAOyABSicig",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAOyABSicis",
+                "mangledName": "$s4YamlAAOyABSicis",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAOyABSiciM",
+                "mangledName": "$s4YamlAAOyABSiciM",
+                "moduleName": "Yaml",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Yaml",
+                "printedName": "Yaml.Yaml",
+                "usr": "s:4YamlAAO"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:4YamlAAOyA2Bcip",
+            "mangledName": "$s4YamlAAOyA2Bcip",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAOyA2Bcig",
+                "mangledName": "$s4YamlAAOyA2Bcig",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAOyA2Bcis",
+                "mangledName": "$s4YamlAAOyA2Bcis",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAOyA2BciM",
+                "mangledName": "$s4YamlAAOyA2BciM",
+                "moduleName": "Yaml",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO4boolSbSgvp",
+            "mangledName": "$s4YamlAAO4boolSbSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO4boolSbSgvg",
+                "mangledName": "$s4YamlAAO4boolSbSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO3intSiSgvp",
+            "mangledName": "$s4YamlAAO3intSiSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO3intSiSgvg",
+                "mangledName": "$s4YamlAAO3intSiSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO6doubleSdSgvp",
+            "mangledName": "$s4YamlAAO6doubleSdSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO6doubleSdSgvg",
+                "mangledName": "$s4YamlAAO6doubleSdSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO6stringSSSgvp",
+            "mangledName": "$s4YamlAAO6stringSSSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO6stringSSSgvg",
+                "mangledName": "$s4YamlAAO6stringSSSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Yaml.Yaml]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Yaml.Yaml]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO5arraySayABGSgvp",
+            "mangledName": "$s4YamlAAO5arraySayABGSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Yaml.Yaml]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Yaml.Yaml]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Yaml",
+                            "printedName": "Yaml.Yaml",
+                            "usr": "s:4YamlAAO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO5arraySayABGSgvg",
+                "mangledName": "$s4YamlAAO5arraySayABGSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dictionary",
+            "printedName": "dictionary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Yaml.Yaml : Yaml.Yaml]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Yaml.Yaml : Yaml.Yaml]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Yaml",
+                        "printedName": "Yaml.Yaml",
+                        "usr": "s:4YamlAAO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO10dictionarySDyA2BGSgvp",
+            "mangledName": "$s4YamlAAO10dictionarySDyA2BGSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Yaml.Yaml : Yaml.Yaml]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Yaml.Yaml : Yaml.Yaml]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Yaml",
+                            "printedName": "Yaml.Yaml",
+                            "usr": "s:4YamlAAO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Yaml",
+                            "printedName": "Yaml.Yaml",
+                            "usr": "s:4YamlAAO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO10dictionarySDyA2BGSgvg",
+                "mangledName": "$s4YamlAAO10dictionarySDyA2BGSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4YamlAAO5countSiSgvp",
+            "mangledName": "$s4YamlAAO5countSiSgvp",
+            "moduleName": "Yaml",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4YamlAAO5countSiSgvg",
+                "mangledName": "$s4YamlAAO5countSiSgvg",
+                "moduleName": "Yaml",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:4YamlAAO",
+        "mangledName": "$s4YamlAAO",
+        "moduleName": "Yaml",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByBooleanLiteral",
+            "printedName": "ExpressibleByBooleanLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "BooleanLiteralType",
+                "printedName": "BooleanLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByBooleanLiteralP",
+            "mangledName": "$ss27ExpressibleByBooleanLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByDictionaryLiteral",
+            "printedName": "ExpressibleByDictionaryLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yaml",
+                    "printedName": "Yaml.Yaml",
+                    "usr": "s:4YamlAAO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30ExpressibleByDictionaryLiteralP",
+            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Yaml"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 7,
+      "value": "\"%YAML\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 117,
+      "length": 11,
+      "value": "\"doc-start\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 9,
+      "value": "\"doc-end\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 9,
+      "value": "\"comment\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 7,
+      "value": "\"space\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 9,
+      "value": "\"newline\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 8,
+      "value": "\"indent\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 8,
+      "value": "\"dedent\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 388,
+      "length": 11,
+      "value": "\"+infinity\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 11,
+      "value": "\"-infinity\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 5,
+      "value": "\"nan\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 8,
+      "value": "\"double\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 5,
+      "value": "\"int\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 9,
+      "value": "\"int-oct\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 9,
+      "value": "\"int-hex\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 9,
+      "value": "\"int-sex\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 3,
+      "value": "\"*\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 3,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 3,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 3,
+      "value": "\"{\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 3,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 8,
+      "value": "\"key-dq\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 8,
+      "value": "\"key-sq\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 3,
+      "value": "\"?\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 12,
+      "value": "\":-flow-out\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 11,
+      "value": "\":-flow-in\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 941,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 3,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 10,
+      "value": "\"reserved\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 11,
+      "value": "\"string-dq\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 11,
+      "value": "\"string-sq\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 16,
+      "value": "\"string-flow-in\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 17,
+      "value": "\"string-flow-out\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 8,
+      "value": "\"string\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 5,
+      "value": "\"end\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1406,
+      "length": 20,
+      "value": "\"(?:\\r\\n|\\r|\\n)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1551,
+      "length": 61,
+      "value": "\"\\x21\\x22\\x24-\\x2b\\x2d-\\x39\\x3b-\\x5a\\x5c\\x5e-\\x7a\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 59,
+      "value": "\"\\x7c\\x7e\\x85\\xa0-\\ud7ff\\ue000-\\ufefe\\uff00\\ufffd\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 25,
+      "value": "\"\\U00010000-\\U0010ffff\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1776,
+      "length": 27,
+      "value": "\"\\x2c\\x5b\\x5d\\x7b\\x7d\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1843,
+      "length": 60,
+      "value": "\"([\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1856,
+      "length": 1,
+      "value": "\"]#|:(?![ \\t]|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1879,
+      "length": 1,
+      "value": "\")|[\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1892,
+      "length": 1,
+      "value": "\"]|[ \\t])+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 68,
+      "value": "\"([\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 1,
+      "value": "\"]#|:(?![ \\t]|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1968,
+      "length": 1,
+      "value": "\")|[\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 1,
+      "value": "\"]|[ \\t]|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1998,
+      "length": 1,
+      "value": "\")+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2092,
+      "length": 42,
+      "value": "\"^-([ \\t]+(?!#|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2117,
+      "length": 1,
+      "value": "\")|(?=[ \\t\\n]))\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 40,
+      "value": "\"(?= *(,|\\]|\\}|( #.*)?(\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2191,
+      "length": 1,
+      "value": "\"|$)))\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2328,
+      "length": 13,
+      "value": "\"^%YAML(?= )\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2376,
+      "length": 6,
+      "value": "\"^---\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2415,
+      "length": 12,
+      "value": "\"^\\.\\.\\.\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2461,
+      "length": 40,
+      "value": "\"^#.*|^\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2477,
+      "length": 1,
+      "value": "\" *(#.*)?(?=\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2497,
+      "length": 1,
+      "value": "\"|$)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 5,
+      "value": "\"^ +\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2572,
+      "length": 14,
+      "value": "\"^\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2583,
+      "length": 1,
+      "value": "\" *\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2642,
+      "length": 30,
+      "value": "\"^(null|Null|NULL|~)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2671,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2704,
+      "length": 28,
+      "value": "\"^(true|True|TRUE)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2765,
+      "length": 31,
+      "value": "\"^(false|False|FALSE)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2795,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2832,
+      "length": 32,
+      "value": "\"^\\+?\\.(inf|Inf|INF)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2863,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2900,
+      "length": 29,
+      "value": "\"^-\\.(inf|Inf|INF)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2928,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2959,
+      "length": 28,
+      "value": "\"^\\.(nan|NaN|NAN)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 2986,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3017,
+      "length": 23,
+      "value": "\"^[-+]?[0-9]+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3039,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3073,
+      "length": 20,
+      "value": "\"^0o[0-7]+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3092,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3126,
+      "length": 26,
+      "value": "\"^0x[0-9a-fA-F]+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3151,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3185,
+      "length": 32,
+      "value": "\"^[0-9]{2}(:[0-9]{2})+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3216,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3250,
+      "length": 65,
+      "value": "\"^[-+]?(\\.[0-9]+|[0-9]+(\\.[0-9]*)?)([eE][-+]?[0-9]+)?\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3314,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3348,
+      "length": 8,
+      "value": "\"^&\\w+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3388,
+      "length": 10,
+      "value": "\"^\\*\\w+\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3430,
+      "length": 4,
+      "value": "\"^,\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3467,
+      "length": 6,
+      "value": "\"^\\[\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3507,
+      "length": 6,
+      "value": "\"^\\]\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3546,
+      "length": 6,
+      "value": "\"^\\{\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3586,
+      "length": 6,
+      "value": "\"^\\}\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 24,
+      "value": "\"^\\?( +|(?=\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3652,
+      "length": 1,
+      "value": "\"))\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3689,
+      "length": 9,
+      "value": "\"^:(?!:)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3732,
+      "length": 9,
+      "value": "\"^:(?!:)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3775,
+      "length": 8,
+      "value": "\"^\\|.*\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3816,
+      "length": 6,
+      "value": "\"^>.*\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3857,
+      "length": 7,
+      "value": "\"^[@`]\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3899,
+      "length": 37,
+      "value": "\"^\"([^\\\\\"]|\\\\(.|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3930,
+      "length": 1,
+      "value": "\"))*\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3971,
+      "length": 15,
+      "value": "\"^'([^']|'')*'\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4021,
+      "length": 56,
+      "value": "\"^\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4041,
+      "length": 1,
+      "value": "\"(?=:([ \\t]|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4062,
+      "length": 1,
+      "value": "\")|\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4073,
+      "length": 1,
+      "value": "\"|$)\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4112,
+      "length": 20,
+      "value": "\"^\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLTokenizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4131,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 9,
+      "value": "\"[^ixsm]\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "Array",
+      "offset": 112,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 3,
+      "value": "\"i\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 3,
+      "value": "\"m\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLRegex.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLParser.swift",
+      "kind": "Dictionary",
+      "offset": 242,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/CoreProject\/Projects\/Panda2MacVPN\/Carthage\/Checkouts\/YamlSwift\/Sources\/Yaml\/YAMLParser.swift",
+      "kind": "Dictionary",
+      "offset": 19388,
+      "length": 259,
+      "value": "[(\"0\", \"\u0000\"), (\"a\", \"\u0007\"), (\"b\", \"\b\"), (\"t\", \"\t\"), (\"n\", \"\n\"), (\"v\", \"\u000B\"), (\"f\", \"\f\"), (\"r\", \"\r\"), (\"e\", \"\u001B\"), (\" \", \" \"), (\"\"\", \"\"\"), (\"\\\", \"\\\"), (\"\/\", \"\/\"), (\"N\", \"\"), (\"_\", \" \"), (\"L\", \" \"), (\"P\", \" \")]"
+    }
+  ]
+}

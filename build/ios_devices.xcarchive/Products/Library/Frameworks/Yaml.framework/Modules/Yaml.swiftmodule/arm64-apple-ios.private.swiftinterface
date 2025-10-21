@@ -1,0 +1,118 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-4.1.50 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios18.1 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Yaml
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import Swift
+@_exported import Yaml
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+precedencegroup Functional {
+  associativity: left
+  higherThan: DefaultPrecedence
+}
+infix operator <*> : Functional
+infix operator <^> : Functional
+infix operator >>- : Functional
+infix operator >>=- : Functional
+infix operator >>| : Functional
+infix operator |> : Functional
+public enum Yaml {
+  case null
+  case bool(Swift.Bool)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case string(Swift.String)
+  case array([Yaml.Yaml])
+  case dictionary([Yaml.Yaml : Yaml.Yaml])
+  public static func == (lhs: Yaml.Yaml, rhs: Yaml.Yaml) -> Swift.Bool
+  prefix public static func - (value: Yaml.Yaml) -> Yaml.Yaml
+}
+extension Yaml.Yaml {
+  public enum ResultError : Swift.Error {
+    case message(Swift.String?)
+  }
+}
+extension Yaml.Yaml : Swift.ExpressibleByNilLiteral {
+  public init(nilLiteral: ())
+}
+extension Yaml.Yaml : Swift.ExpressibleByBooleanLiteral {
+  public init(booleanLiteral: Swift.BooleanLiteralType)
+  public typealias BooleanLiteralType = Swift.BooleanLiteralType
+}
+extension Yaml.Yaml : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral: Swift.IntegerLiteralType)
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
+}
+extension Yaml.Yaml : Swift.ExpressibleByFloatLiteral {
+  public init(floatLiteral: Swift.FloatLiteralType)
+  public typealias FloatLiteralType = Swift.FloatLiteralType
+}
+extension Yaml.Yaml : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral: Swift.StringLiteralType)
+  public init(extendedGraphemeClusterLiteral: Swift.StringLiteralType)
+  public init(unicodeScalarLiteral: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension Yaml.Yaml : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: Yaml.Yaml...)
+  public typealias ArrayLiteralElement = Yaml.Yaml
+}
+extension Yaml.Yaml : Swift.ExpressibleByDictionaryLiteral {
+  public init(dictionaryLiteral elements: (Yaml.Yaml, Yaml.Yaml)...)
+  public typealias Key = Yaml.Yaml
+  public typealias Value = Yaml.Yaml
+}
+extension Yaml.Yaml : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Yaml.Yaml : Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+extension Yaml.Yaml {
+  public static func load(_ text: Swift.String) throws -> Yaml.Yaml
+  public static func loadMultiple(_ text: Swift.String) throws -> [Yaml.Yaml]
+  public static func debug(_ text: Swift.String) -> Yaml.Yaml?
+  public static func debugMultiple(_ text: Swift.String) -> [Yaml.Yaml]?
+}
+extension Yaml.Yaml {
+  public subscript(index: Swift.Int) -> Yaml.Yaml {
+    get
+    set
+  }
+  public subscript(key: Yaml.Yaml) -> Yaml.Yaml {
+    get
+    set
+  }
+}
+extension Yaml.Yaml {
+  public var bool: Swift.Bool? {
+    get
+  }
+  public var int: Swift.Int? {
+    get
+  }
+  public var double: Swift.Double? {
+    get
+  }
+  public var string: Swift.String? {
+    get
+  }
+  public var array: [Yaml.Yaml]? {
+    get
+  }
+  public var dictionary: [Yaml.Yaml : Yaml.Yaml]? {
+    get
+  }
+  public var count: Swift.Int? {
+    get
+  }
+}
